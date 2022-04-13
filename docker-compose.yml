@@ -42,3 +42,6 @@ services:
       # FORCE_RENEW: 'true'
     volumes:
       - https-portal-data:/var/lib/https-portal
+
+volumes:
+  https-portal-data:
